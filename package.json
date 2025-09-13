@@ -1,0 +1,41 @@
+{
+  "name": "new-flywheel-website",
+  "version": "1.0.0",
+  "description": "Official website for NEW FLYWHEEL - A revolutionary Solana memecoin with deflationary flywheel mechanism",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Static site - no build required'",
+    "dev": "npx serve . -l 3000",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "solana",
+    "memecoin",
+    "cryptocurrency",
+    "defi",
+    "flywheel",
+    "pump.fun",
+    "tokenomics",
+    "blockchain"
+  ],
+  "author": "NEW FLYWHEEL Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newflywheel/website"
+  },
+  "homepage": "https://newflywheel.vercel.app",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "dependencies": {},
+  "vercel": {
+    "buildCommand": "echo 'Static site - no build required'",
+    "outputDirectory": ".",
+    "installCommand": "echo 'No dependencies to install'"
+  }
+}
